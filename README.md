@@ -71,7 +71,7 @@ sns.set_palette("viridis")
 ### 1. Age Distribution by Gender
 > `sns.histplot` + KDE
 
-![Age Distribution by Gender](chart_age_distribution.png)
+![Age Distribution by Gender](charts_image/chart_age_distribution.png)
 
 Most users fall between **ages 25–35**. Female users skew slightly younger. KDE curves reveal a bimodal pattern in male ages.
 
@@ -80,7 +80,7 @@ Most users fall between **ages 25–35**. Female users skew slightly younger. KD
 ### 2. Weight vs Age
 > `sns.boxplot`
 
-![Weight vs Age](chart_weight_vs_age.png)
+![Weight vs Age](charts_image/chart_weight_vs_age.png)
 
 Weight distributions per age group show **no strong linear trend**, with most medians clustered between 70–85 kg across all ages.
 
@@ -89,7 +89,7 @@ Weight distributions per age group show **no strong linear trend**, with most me
 ### 3. Average Age by Gender
 > `sns.barplot`
 
-![Average Age by Gender](chart_avg_age_gender.png)
+![Average Age by Gender](charts_image/chart_avg_age_gender.png)
 
 Males average **~35 years** vs females at **~31.5 years** — a ~3.5 year gap in the dataset.
 
@@ -98,7 +98,7 @@ Males average **~35 years** vs females at **~31.5 years** — a ~3.5 year gap in
 ### 4. Number of Users per Gender
 > `sns.countplot`
 
-![Number of Users per Gender](chart_users_per_gender.png)
+![Number of Users per Gender](charts_image/chart_users_per_gender.png)
 
 Gender distribution is nearly balanced: **105 female** vs **102 male** users — a 51/49 split.
 
@@ -107,7 +107,7 @@ Gender distribution is nearly balanced: **105 female** vs **102 male** users —
 ### 5. Top 10 Cities with Most Users
 > `sns.barplot` (horizontal)
 
-![Top 10 Cities with Most Users](chart_top10_cities.png)
+![Top 10 Cities with Most Users](charts_image/chart_top10_cities.png)
 
 **Phoenix** leads with 17 users, followed by Dallas (15) and Jacksonville / Los Angeles (14 each). The top 10 cities span both coasts and the Sun Belt.
 
@@ -116,7 +116,7 @@ Gender distribution is nearly balanced: **105 female** vs **102 male** users —
 ### 6. Age vs Height
 > `sns.scatterplot` + `sns.regplot`
 
-![Age vs Height](chart_age_vs_height.png)
+![Age vs Height](charts_image/chart_age_vs_height.png)
 
 Nearly flat regression line confirms **no meaningful correlation** between age and height (r ≈ 0). Gender clustering is clearly visible.
 
@@ -125,7 +125,7 @@ Nearly flat regression line confirms **no meaningful correlation** between age a
 ### 7. Age vs Weight
 > `sns.scatterplot` + `sns.regplot`
 
-![Age vs Weight](chart_age_vs_weight.png)
+![Age vs Weight](charts_image/chart_age_vs_weight.png)
 
 A slight positive trend (r ≈ 0.15) suggests weight increases marginally with age, but the effect is weak — scatter dominates.
 
